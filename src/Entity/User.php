@@ -172,16 +172,4 @@ class User implements UserInterface, PasswordAuthenticatedUserInterface
 
         return $this;
     }
-
-    public function getN(): ?string
-    {
-        return $this->n;
-    }
-
-    public function setN(string $n): static
-    {
-        $this->n = $n;
-
-        return $this;
-    }
 }
